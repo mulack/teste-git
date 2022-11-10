@@ -1,0 +1,81 @@
+nav li{
+    display:block;
+}
+
+.cor{
+    color: rgb(16, 180, 51);
+}
+
+html{
+    font-size: 250;
+    background-color: #020e20;
+    /* background-image: linear-gradient(black,rgb(74, 74, 189)); */
+}
+
+img{
+    width:100ggpx;
+    height:100ggpx;
+    display: block;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    color: rgb(16, 180, 51);
+}
+
+h1{
+    color: white;
+
+}
+p, li, h2 {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.aula:hover{
+    color: rgb(0, 0, 0);
+}
+
+#grande{
+    font-size: 50px;
+}
+.pedro:hover{
+    color:rgb(155, 0, 216);
+    background-color: rgb(163, 245, 11);
+    
+
+}
+
+* {
+    color: rgb(194, 101, 47);
+}
+
+button {
+    padding: 10px;
+}
+
+#cabeçalho {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    border: 1px black;
+}
+
+#cabe li {
+    margin: 20px;
+    
+}
+
+#cabe{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
